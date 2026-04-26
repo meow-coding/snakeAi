@@ -4,6 +4,14 @@ A self-learning Snake game powered by a Deep Q-Network (DQN). The agent starts w
 
 ---
 
+## 🎬 Demo
+
+Watch the agent go from random movements to strategic play — learning to chase food and dodge walls entirely on its own.
+
+https://github.com/meow-coding/snakeAi/blob/main/snake_ai_training.mp4
+
+---
+
 ## 📸 Overview
 
 The project combines a live Pygame Snake environment with a PyTorch neural network agent. The snake learns by exploring the game, collecting rewards for eating food, and being penalized for dying. Over hundreds of games, it develops a strategy that consistently beats human-level play.
@@ -143,6 +151,7 @@ agent.model.load_state_dict(torch.load('snake_model.pth'))
 
 - [Playing Atari with Deep Reinforcement Learning — DeepMind (2013)](https://arxiv.org/abs/1312.5602)
 - [PyTorch Documentation](https://pytorch.org/docs/)
+- [Pygame Documentation](https://www.pygame.org/docs/)
 - [Pygame Documentation](https://www.pygame.org/docs/)
 
 ---
