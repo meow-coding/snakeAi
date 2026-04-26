@@ -146,3 +146,7 @@ agent.model.load_state_dict(torch.load('snake_model.pth'))
 - [Pygame Documentation](https://www.pygame.org/docs/)
 
 ---
+
+## Demo
+
+https://github.com/meow-coding/snakeAi/assets/main/2026-02-28%2017-04-01.mp4
